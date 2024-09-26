@@ -1,0 +1,5 @@
+# secrets
+src/configs/
+
+# Node.js
+src/node_modules

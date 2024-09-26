@@ -1,0 +1,34 @@
+{
+  "name": "securelog",
+  "version": "1.0.0",
+  "description": "forkable web-login service template",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test-db": "jest --rootDir=./database --testTimeout=100000000",
+    "test-tokens": "jest --rootDir=./tokens"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BnjmnZmmrmn/SecureLog.git"
+  },
+  "author": "Benjamin Riley Zimmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BnjmnZmmrmn/SecureLog/issues"
+  },
+  "homepage": "https://github.com/BnjmnZmmrmn/SecureLog#readme",
+  "dependencies": {
+    "argon2": "0.41.1",
+    "cookie-parser": "^1.4.7",
+    "ejs": "3.1.10",
+    "express": "4.21.0",
+    "express-session": "1.18.0",
+    "js-yaml": "4.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "6.3"
+  },
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}
